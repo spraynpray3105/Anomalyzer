@@ -56,14 +56,14 @@ Export reports or integrate with other systems (once dashboard features are avai
 
 Examples and sample configurations are provided in /examples:
 ---
-# Example: Analyze a PCAP file
+# Example: Collect New Data
 ```
-python analyze.py --input sample.pcap
+python .\Live_prediction_v1.py --collect
 ```
 
-# Example: Real-time monitoring
+# Example: Specify the data collection period
 ```
-python monitor.py --interface eth0
+python .\Live_prediction_v1.py --collect --flowcount 30000 #collect data for thirty-thousand flows
 ```
 ---
 ## License
@@ -95,11 +95,15 @@ Contributions are welcome!
 
 Fork the repository
 
-Create a feature branch (git checkout -b feature-name)
+Create a feature branch 
 
-Commit your changes (git commit -m "Add feature")
+```git checkout -b feature-name```
 
-Push to the branch (git push origin feature-name)
+Commit your changes 
+```git commit -m "Add feature"```
+
+Push to the branch 
+```git push origin feature-name```
 
 Open a pull request
 
