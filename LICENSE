@@ -1,0 +1,27 @@
+Anomalyzer Open GPL-Compatible License with Attribution (AOGPL-Attribution) v1.0
+
+Copyright (c) 2025 Elijah Martin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish, and distribute the Software under the following conditions:
+
+1. Copyleft and Redistribution
+   - Any redistribution, modification, or derivative work of the Software must remain open source.
+   - Redistribution or relicensing under the GNU General Public License (GPLv3 or later) is explicitly allowed.
+   - Redistribution under any proprietary license is strictly prohibited without explicit written permission from Elijah Martin.
+
+2. Mandatory Attribution
+   - Any redistribution or derivative work, including those licensed under GPL, must include prominent credit to the original creator:
+     “Original work created by Elijah Martin, Anomalyzer 2025.”
+   - Attribution must appear in source code files, documentation, or any visible interface in a reasonable manner.
+
+3. Commercial Use
+   - Commercial use, including selling the Software or derivative works, is allowed only if done in compliance with GPLv3 or with explicit written permission from Elijah Martin.
+   - Providing the Software as a hosted service is allowed under GPLv3 terms, or under commercial permission from Elijah Martin.
+
+4. Warranty Disclaimer
+   - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+5. Enforcement
+   - Any attempt to circumvent the restrictions on proprietary licensing or attribution without Elijah Martin's permission is a violation of this license and applicable copyright law.
