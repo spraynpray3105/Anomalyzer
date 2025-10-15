@@ -42,8 +42,6 @@ cd Anomalyzer
 ```
 Follow the setup instructions in the /docs folder for your environment.
 
-For WordPress plugin users, copy the plugin folder into wp-content/plugins/ and activate via the WordPress admin panel.
-
 ---
 
 ## Usage
