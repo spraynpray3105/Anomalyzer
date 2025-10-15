@@ -95,8 +95,7 @@ Contributions are welcome!
 
 Fork the repository
 
-Create a feature branch 
-
+Create a feature branch
 ```git checkout -b feature-name```
 
 Commit your changes 
