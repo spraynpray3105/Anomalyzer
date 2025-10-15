@@ -76,7 +76,7 @@ def process_anomaly(flow_features, score):
     }
 
     # CLI output
-    print(f"⚠️  [{timestamp}] Anomaly Detected → Score={score:.4f}")
+    print(f"!!!  [{timestamp}] Anomaly Detected → Score={score:.4f}")
     print(f"   Features: {entry}")
 
     # Save to CSV
@@ -159,7 +159,7 @@ def collect_baseline(interface):
     finally:
         pbar.close()
         if len(baseline_data) == 0:
-            print("⚠️ No baseline data collected. Returning empty DataFrame.")
+            print("!!! No baseline data collected. Returning empty DataFrame.")
             return pd.DataFrame(columns=NUMERIC_FEATS)
         else:
             print(f"\n---> Baseline collection complete: {len(baseline_data)} flows.\n")
@@ -173,7 +173,7 @@ def train_model(df):
     """Train IsolationForest model using baseline data."""
     print("---> Training model on baseline data...")
     if df is None or df.empty:
-        raise ValueError("❌ No valid data provided for training. Baseline may be empty.")
+        raise ValueError("!!! No valid data provided for training. Baseline may be empty.")
 
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(df[NUMERIC_FEATS])
@@ -313,3 +313,4 @@ if __name__ == "__main__":
 
     # Start monitoring (only if model/scaler available)
     live_monitor(model, scaler, interface)
+
