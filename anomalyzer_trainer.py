@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 """
+Author: Elijah Martin
+Project: Anomalyzer
+Repository: https://github.com/spraynpray3105/Anomalyzer
+Website: https://anomalyzer.wordpress.com
+License: Anomalyzer Open GPL-Compatible License with Attribution (AOGPL-Attribution) v1.0
+
 -----------------------------------------------------
 Collects real packets from the NIC, aggregates them into short windows,
 then trains two tiny models and saves ONLY model artifacts.
