@@ -1,4 +1,4 @@
-# Anomalyzer
+# Anomalyzer (IN-DEVELOPMENT)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/spraynpray3105/Anomalyzer)
 ![GitHub contributors](https://img.shields.io/github/contributors/spraynpray3105/Anomalyzer)
